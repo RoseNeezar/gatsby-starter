@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-typescript`],
+  plugins: [
+    `gatsby-plugin-typescript`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {},
+    },
+  ],
 }

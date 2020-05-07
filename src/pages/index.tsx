@@ -1,12 +1,15 @@
 import React from "react"
+import styled from "styled-components"
+
+const PageLayout = styled.div`
+  background-color: ${({ theme }) => theme.colors.blue};
+`
 
 const IndexPage: React.FC = () => {
   return (
-    <>
-      <div>
-        <h1>hello world</h1>
-      </div>
-    </>
+    <PageLayout>
+      <h1>hello world</h1>
+    </PageLayout>
   )
 }
 
