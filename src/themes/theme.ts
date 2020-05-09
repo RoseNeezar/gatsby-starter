@@ -1,10 +1,14 @@
 export default {
-  colors: {
-    background: "radial-gradient(#282c34cc, #282c34)",
-    black: "#282c34",
-    blue: "#a0e9fd",
-    lightBlue: "#caf3fe",
-    white: "#fff",
+  DarkTheme: {
+    primary: "#162447",
+    secondary: "#1f4068",
+    action: "#e43f5a",
+    reaction: "#1b1b2f",
   },
-  transition: "0.3",
+  LightTheme: {
+    primary: "#f9f9f9",
+    secondary: "#ffe0ac",
+    action: "#ffacb7",
+    reaction: "#6886c5",
+  },
 }

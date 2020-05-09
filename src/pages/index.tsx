@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const PageLayout = styled.div`
-  background-color: ${({ theme }) => theme.colors.blue};
+  background-color: ${({ theme }) => theme.LightTheme.primary};
 `
 
 const IndexPage: React.FC = () => {

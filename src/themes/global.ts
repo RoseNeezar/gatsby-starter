@@ -12,8 +12,7 @@ export default createGlobalStyle`
         margin: 0;
 
         #root {
-          background: ${theme.colors.background};
-          color: ${theme.colors.black};
+          background: ${theme.DarkTheme.primary};
           display: flex;
           font-family: sans-serif;
           height: 100%;
