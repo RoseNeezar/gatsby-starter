@@ -8,7 +8,7 @@ export default class ThemeStore {
   }
   @observable toggleTheme: boolean = false
 
-  @action setToggleTheme = (set: boolean) => {
-    this.toggleTheme = set
+  @action setToggleTheme = () => {
+    this.toggleTheme = !this.toggleTheme
   }
 }

@@ -1,3 +1,3 @@
 import GlobalStyles from "./global"
-import Theme from "./theme"
-export { GlobalStyles, Theme }
+import { DarkTheme, LightTheme } from "./theme"
+export { GlobalStyles, LightTheme, DarkTheme }
