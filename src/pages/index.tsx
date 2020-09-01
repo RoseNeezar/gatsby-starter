@@ -20,7 +20,7 @@ const IndexPage: React.FC = () => {
   console.log(toggleTheme)
   return (
     <Layout>
-      <Header />
+      <Header>header</Header>
       <PageLayout>
         <h1>hello world</h1>
         <button onClick={() => HandleTheme()}>Click me</button>
